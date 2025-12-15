@@ -461,14 +461,9 @@ const Chip = React.forwardRef(function Chip(inProps, ref) {
         React.cloneElement(deleteIconProp, {
           className: clsx(deleteIconProp.props.className, classes.deleteIcon),
           onClick: handleDeleteIconClick,
-          'aria-label': `Delete ${label || 'item'}`,
         })
       ) : (
-        <CancelIcon
-          className={classes.deleteIcon}
-          onClick={handleDeleteIconClick}
-          aria-label={`Delete ${label || 'item'}`}
-        />
+        <CancelIcon className={classes.deleteIcon} onClick={handleDeleteIconClick} />
       );
   }
 
