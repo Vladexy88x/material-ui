@@ -25,12 +25,11 @@ const GOLDs = [
     href: 'https://www.dialmycalls.com/?utm_source=mui.com&utm_medium=referral&utm_content=homepage',
   },
   {
-    src: '/static/sponsors/wispr-square-light.svg',
-    srcSet: '/static/sponsors/wispr-square-light.svg 3x',
-    srcDark: '/static/sponsors/wispr-square-dark.svg',
-    name: 'Wispr Flow',
-    description: 'AI Dictation: from speech to clear, polished text.',
-    href: 'https://ref.wisprflow.ai/ZSPYrru?utm_source=mui.com&utm_medium=referral&utm_content=homepage',
+    src: 'https://images.opencollective.com/react-pdf-kit/c8e1c25/logo/40.png',
+    srcSet: 'https://images.opencollective.com/react-pdf-kit/c8e1c25/logo/120.png 3x',
+    name: 'React PDF Kit',
+    description: 'Powerful, Fast, Developer-Friendly React PDF Kit.',
+    href: 'https://www.react-pdf-kit.dev/?utm_source=mui.com&utm_medium=referral&utm_content=homepage',
   },
 ];
 
@@ -69,11 +68,6 @@ const BACKLINKs = [
     name: 'Follower24',
     description: 'Social media success.',
     href: 'https://www.follower24.de/?utm_source=mui.com&utm_medium=referral&utm_content=homepage',
-  },
-  {
-    name: 'Reputation Manage',
-    description: 'Instant Delivery Google Reviews.',
-    href: 'https://reputationmanage.co/?utm_source=mui.com&utm_medium=referral&utm_content=homepage',
   },
 ];
 

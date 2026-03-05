@@ -1,7 +1,7 @@
 import Section from 'docs/src/layouts/Section';
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
-import SectionHeadline from '../typography/SectionHeadline';
+import SectionHeadline from '@mui/docs/SectionHeadline';
 import GradientText from '../typography/GradientText';
 
 export default function CustomersHero() {
@@ -11,13 +11,13 @@ export default function CustomersHero() {
         alwaysCenter
         overline="Customers"
         title={
-          <Typography variant="h2" component="h2" sx={{ mb: 2 }}>
+          <Typography variant="h2" component="h1" sx={{ mb: 2 }}>
             Meet the <GradientText color="primary">teams</GradientText>
             <br />
             powered by <GradientText color="primary">MUI</GradientText>
           </Typography>
         }
-        description="See how MUI's comprehensive suite of UI tools helps them ship better and faster"
+        description="See how MUI's comprehensive suite of UI tools helps them ship better and faster."
       />
     </Section>
   );

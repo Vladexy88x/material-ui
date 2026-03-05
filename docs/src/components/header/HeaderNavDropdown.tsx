@@ -88,8 +88,8 @@ const DOCS = [
     href: ROUTES.joyDocs,
   },
   {
-    name: 'MUI Base',
-    description: 'Unstyled React components and low-level hooks.',
+    name: 'Base UI',
+    description: 'Unstyled components for building accessible UIs.',
     href: ROUTES.baseDocs,
   },
   {
@@ -276,11 +276,6 @@ export default function HeaderNavDropdown() {
               <li>
                 <Anchor href={ROUTES.blog} as={Link} noLinkStyle>
                   Blog
-                </Anchor>
-              </li>
-              <li>
-                <Anchor href={ROUTES.customers} as={Link} noLinkStyle>
-                  Customers
                 </Anchor>
               </li>
             </UList>
