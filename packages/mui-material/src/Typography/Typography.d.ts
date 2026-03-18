@@ -56,12 +56,6 @@ export interface TypographyOwnProps extends Omit<SystemProps<Theme>, 'color'> {
    */
   noWrap?: boolean | undefined;
   /**
-   * If `true`, the element will be a paragraph element.
-   * @default false
-   * @deprecated Use the `component` prop instead. This prop will be removed in a future major release. See [Migrating from deprecated APIs](https://mui.com/material-ui/migration/migrating-from-deprecated-apis/) for more details.
-   */
-  paragraph?: boolean | undefined;
-  /**
    * The system prop that allows defining system overrides as well as additional CSS styles.
    */
   sx?: SxProps<Theme> | undefined;
@@ -114,6 +108,7 @@ export interface TypographyTypeMap<
  * Demos:
  *
  * - [Breadcrumbs](https://next.mui.com/material-ui/react-breadcrumbs/)
+ * - [Menubar](https://next.mui.com/material-ui/react-menubar/)
  * - [Typography](https://next.mui.com/material-ui/react-typography/)
  *
  * API:
