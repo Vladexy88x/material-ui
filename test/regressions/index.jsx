@@ -141,7 +141,6 @@ const importDemos = import.meta.glob(
     '!docs/data/material/components/stack/InteractiveStack', // Redundant
     '!docs/data/material/components/steppers/HorizontalNonLinearStepper', // Redundant
     '!docs/data/material/components/steppers/TextMobileStepper', // Flaky image loading
-    '!docs/data/material/components/table/ReactVirtualizedTable', // Flaky
     '!docs/data/material/components/tabs/AccessibleTabs1', // Need interaction
     '!docs/data/material/components/tabs/AccessibleTabs2', // Need interaction
     '!docs/data/material/components/textarea-autosize', // Superseded by a dedicated regression test
@@ -161,6 +160,8 @@ const importDemos = import.meta.glob(
     '!docs/data/base/getting-started/quickstart/BaseButtonTailwind', // CodeSandbox
     '!docs/data/base/guides/working-with-tailwind-css/PlayerFinal', // No public components
     '!docs/data/premium-themes',
+    '!docs/data/material/getting-started/versions/LatestVersions', // not a component
+    '!docs/data/material/getting-started/versions/ReleasedVersions', // not a component
   ],
   {
     import: 'default',
